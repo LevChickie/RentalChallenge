@@ -2,7 +2,9 @@
 During the Programming Exercise, the developer got the freedom to choose any framework to work with. I chose Java Spring Boot for flexibility as a backend framework and Angular for structure as a frontend framework. I developed a MongoDB database with some starter data.
 
 The following was my working plan.
+
 The backend must be operable in order to validate if the database is available and process the incoming frontend queries. Java Spring Boot was an ideal solution because I have prior experience in it and it was not a problem to set up the controllers, repositories and models. I designed three model classes rather than the required two because a rental company must have some data on the previous rents and their information such as cost and duration. I created a Car, Client and Rental model. Since Java Spring Boot is great with the REST.API, it was a good choice for the backend.
+
 The database for this project was not as simple choice as the Java Spring Boot and the REST.API. I thought making a MongoDB database and access it or create a local database for the task. In the end I decided to make a MongoDB database since it reflects the real working environment better. I used MongoDB because I had some prior experience with it and because it has a great community version. After making an example database I tested it using MongoShell to make sure that the database is available for API calls.
 
 I had an annoying issue during the testing of the backend and the database. The issue was hard to solve because I received a Whitelabel Error and since it is a very general error message finding the reason for the error was quite a challenge. After a long debugging and researching process, I have found that the Java Spring structure has to follow a certain pattern in order to work and since I built up my application from scratch there was an issue with the package naming conventions.
