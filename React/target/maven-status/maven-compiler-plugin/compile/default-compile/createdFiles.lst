@@ -1,0 +1,14 @@
+backend\entities\CarRepository.class
+backend\Webapplication.class
+backend\exceptions\CarNotFoundException.class
+backend\exceptions\RentalNotFoundException.class
+backend\exceptions\ClientNotFoundException.class
+backend\entities\Car.class
+backend\entities\Rental.class
+backend\RentalController.class
+backend\entities\RentalRepository.class
+backend\HomeController.class
+backend\ClientController.class
+backend\CarController.class
+backend\entities\ClientRepository.class
+backend\entities\Client.class
